@@ -4,7 +4,7 @@ import os
 worda = '</li> <li> <a href="'
 wordb = '" tar'
 wordc = worda + "http"
-wordNot = "http://dashb-ssb"
+wordNot = "://dashb-ssb"
 print "var links =["
 with open("source.html") as file:
 	for line in file:
